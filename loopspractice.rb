@@ -28,15 +28,15 @@
 # 	num += 1
 # end
 
-puts "Give me a number from 1- 10"
+# puts "Give me a number from 1- 10"
 
-num = gets.chomp.to_i	
+# num = gets.chomp.to_i	
 
-until num == 0
-	puts num * 2
-	num -=1
+# until num == 0
+# 	puts num * 2
+# 	num -=1
 	
-end
+# end
 
 # dad = "no"
 # until dad == "yes"
@@ -62,3 +62,9 @@ end
 	
 # end
 # 	puts "thank you"
+
+
+hash = { name => "jasmin", age => 27, food => "seafood", hometown => "atlanta, ga" }
+hash.each do |k, v|
+	puts "This is #{k} They are #{k}-years old, from #{hometown}, and their favorite food is #{food}."
+end
